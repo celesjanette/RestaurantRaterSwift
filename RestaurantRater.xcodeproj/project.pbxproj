@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		42076FBD2BB335A300E8ED57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FBC2BB335A300E8ED57 /* AppDelegate.swift */; };
 		42076FBF2BB335A300E8ED57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FBE2BB335A300E8ED57 /* SceneDelegate.swift */; };
-		42076FC12BB335A300E8ED57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FC02BB335A300E8ED57 /* ViewController.swift */; };
 		42076FC42BB335A300E8ED57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 42076FC32BB335A300E8ED57 /* Base */; };
 		42076FC62BB335AB00E8ED57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42076FC52BB335AB00E8ED57 /* Assets.xcassets */; };
 		42076FC92BB335AB00E8ED57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 42076FC82BB335AB00E8ED57 /* Base */; };
 		42076FD42BB335AC00E8ED57 /* RestaurantRaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FD32BB335AC00E8ED57 /* RestaurantRaterTests.swift */; };
 		42076FDE2BB335AC00E8ED57 /* RestaurantRaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FDD2BB335AC00E8ED57 /* RestaurantRaterUITests.swift */; };
 		42076FE02BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FDF2BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift */; };
+		4219A5312BB37E680098BC91 /* RateDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A5302BB37E680098BC91 /* RateDishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		42076FB92BB335A300E8ED57 /* RestaurantRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42076FBC2BB335A300E8ED57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42076FBE2BB335A300E8ED57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42076FC02BB335A300E8ED57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42076FC32BB335A300E8ED57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42076FC52BB335AB00E8ED57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42076FC82BB335AB00E8ED57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		42076FD92BB335AC00E8ED57 /* RestaurantRaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantRaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42076FDD2BB335AC00E8ED57 /* RestaurantRaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRaterUITests.swift; sourceTree = "<group>"; };
 		42076FDF2BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4219A5302BB37E680098BC91 /* RateDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				42076FBC2BB335A300E8ED57 /* AppDelegate.swift */,
 				42076FBE2BB335A300E8ED57 /* SceneDelegate.swift */,
-				42076FC02BB335A300E8ED57 /* ViewController.swift */,
 				42076FC22BB335A300E8ED57 /* Main.storyboard */,
 				42076FC52BB335AB00E8ED57 /* Assets.xcassets */,
 				42076FC72BB335AB00E8ED57 /* LaunchScreen.storyboard */,
 				42076FCA2BB335AB00E8ED57 /* Info.plist */,
+				4219A5302BB37E680098BC91 /* RateDishViewController.swift */,
 			);
 			path = RestaurantRater;
 			sourceTree = "<group>";
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42076FC12BB335A300E8ED57 /* ViewController.swift in Sources */,
 				42076FBD2BB335A300E8ED57 /* AppDelegate.swift in Sources */,
+				4219A5312BB37E680098BC91 /* RateDishViewController.swift in Sources */,
 				42076FBF2BB335A300E8ED57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
