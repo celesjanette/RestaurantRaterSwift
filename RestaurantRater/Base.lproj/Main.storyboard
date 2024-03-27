@@ -130,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="663.35877862595419" y="-123.23943661971832"/>
         </scene>
-        <!--View Controller-->
+        <!--Rate Dish View Controller-->
         <scene sceneID="aF5-i5-cQP">
             <objects>
-                <viewController id="272-Ts-6Ob" sceneMemberID="viewController">
+                <viewController id="272-Ts-6Ob" customClass="RateDishViewController" customModule="RestaurantRater" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iKm-XT-u1b">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +187,9 @@
                                                 <subviews>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rhd-T9-D8H">
                                                         <rect key="frame" x="-2" y="0.0" width="377" height="31"/>
+                                                        <connections>
+                                                            <action selector="sliderValueChanged:" destination="272-Ts-6Ob" eventType="valueChanged" id="Yxd-3T-Dx4"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -238,6 +241,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yqJ-tR-CfJ"/>
+                    <connections>
+                        <outlet property="ratingLabel" destination="ghp-be-SmB" id="TCS-23-N0D"/>
+                        <outlet property="ratingSlider" destination="rhd-T9-D8H" id="Ayc-O8-X0U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbn-QW-xxc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
