@@ -16,6 +16,9 @@
 		42076FDE2BB335AC00E8ED57 /* RestaurantRaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FDD2BB335AC00E8ED57 /* RestaurantRaterUITests.swift */; };
 		42076FE02BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42076FDF2BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift */; };
 		4219A5312BB37E680098BC91 /* RateDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A5302BB37E680098BC91 /* RateDishViewController.swift */; };
+		4219A5342BB39EE80098BC91 /* RestaurantRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4219A5322BB39EE80098BC91 /* RestaurantRate.xcdatamodeld */; };
+		4219A5382BB3A3940098BC91 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A5372BB3A3940098BC91 /* RestaurantViewController.swift */; };
+		4219A53A2BB3A77B0098BC91 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A5392BB3A77B0098BC91 /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		42076FDD2BB335AC00E8ED57 /* RestaurantRaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRaterUITests.swift; sourceTree = "<group>"; };
 		42076FDF2BB335AC00E8ED57 /* RestaurantRaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4219A5302BB37E680098BC91 /* RateDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDishViewController.swift; sourceTree = "<group>"; };
+		4219A5332BB39EE80098BC91 /* RestaurantRate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestaurantRate.xcdatamodel; sourceTree = "<group>"; };
+		4219A5372BB3A3940098BC91 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		4219A5392BB3A77B0098BC91 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				42076FC72BB335AB00E8ED57 /* LaunchScreen.storyboard */,
 				42076FCA2BB335AB00E8ED57 /* Info.plist */,
 				4219A5302BB37E680098BC91 /* RateDishViewController.swift */,
+				4219A5322BB39EE80098BC91 /* RestaurantRate.xcdatamodeld */,
+				4219A5372BB3A3940098BC91 /* RestaurantViewController.swift */,
+				4219A5392BB3A77B0098BC91 /* CoreDataHelper.swift */,
 			);
 			path = RestaurantRater;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4219A53A2BB3A77B0098BC91 /* CoreDataHelper.swift in Sources */,
+				4219A5342BB39EE80098BC91 /* RestaurantRate.xcdatamodeld in Sources */,
+				4219A5382BB3A3940098BC91 /* RestaurantViewController.swift in Sources */,
 				42076FBD2BB335A300E8ED57 /* AppDelegate.swift in Sources */,
 				4219A5312BB37E680098BC91 /* RateDishViewController.swift in Sources */,
 				42076FBF2BB335A300E8ED57 /* SceneDelegate.swift in Sources */,
@@ -607,6 +619,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4219A5322BB39EE80098BC91 /* RestaurantRate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4219A5332BB39EE80098BC91 /* RestaurantRate.xcdatamodel */,
+			);
+			currentVersion = 4219A5332BB39EE80098BC91 /* RestaurantRate.xcdatamodel */;
+			name = RestaurantRate.xcdatamodeld;
+			path = /Users/caugustus/XCodeProjects/RestaurantRater/RestaurantRater/RestaurantRate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 42076FB12BB335A300E8ED57 /* Project object */;
 }
